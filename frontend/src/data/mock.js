@@ -225,6 +225,14 @@ export const mockData = {
           phone: 'Phone',
           location: 'Location'
         }
+      },
+      footer: {
+        description: 'Discover new horizons with Travel Frontiers. 15 years exploring the world and now helping others create their own unforgettable adventures.',
+        quickLinks: 'Quick Links',
+        contact: 'Contact',
+        copyright: 'All rights reserved.',
+        privacy: 'Privacy Policy',
+        terms: 'Terms of Service'
       }
     },
     fr: {
