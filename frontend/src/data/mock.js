@@ -173,6 +173,11 @@ export const mockData = {
       testimonials: {
         title: 'Client Testimonials',
         subtitle: 'What they say about us',
+        stats: {
+          trips: 'Trips Planned',
+          countries: 'Countries Visited',
+          experience: 'Years of Experience'
+        },
         items: [
           {
             text: 'We can only be grateful for the excellent dedicated support. It makes the whole experience so much more worthwhile!',
