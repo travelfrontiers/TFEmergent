@@ -37,7 +37,7 @@ const Hero = () => {
             </p>
             
             <Button 
-              onClick={scrollToContact}
+              onClick={handleQuoteRequest}
               size="lg"
               className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white border-0 px-8 py-4 text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
             >
