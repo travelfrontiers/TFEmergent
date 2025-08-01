@@ -13,8 +13,17 @@ const Footer = () => {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">TF</span>
+              {/* Travel Frontiers Logo with Globe and Traveler */}
+              <div className="w-10 h-10 bg-black rounded-full flex items-center justify-center relative">
+                <div className="w-7 h-7 border-2 border-amber-400 border-dashed rounded-full flex items-center justify-center">
+                  <div className="w-4 h-4 bg-amber-400 rounded-full relative">
+                    <div className="absolute inset-1 bg-black rounded-full"></div>
+                    <div className="absolute top-0.5 right-0.5 w-0.5 h-0.5 bg-amber-400 rounded-full"></div>
+                  </div>
+                </div>
+                <div className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 text-amber-400 text-xs">
+                  ✈
+                </div>
               </div>
               <span className="text-2xl font-bold">Travel Frontiers</span>
             </div>
