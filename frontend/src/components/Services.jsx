@@ -1,7 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Card, CardContent } from './ui/card';
-import { Plane, Users, Package, Compass } from 'lucide-react';
 
 const Services = () => {
   const { t } = useLanguage();
