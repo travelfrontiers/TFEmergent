@@ -180,7 +180,27 @@ export const mockData = {
       contact: {
         title: 'Start Your Next Adventure',
         subtitle: 'Request your personalized quote and let us plan the trip of your dreams',
-        cta: 'Contact Now'
+        cta: 'Contact Now',
+        form: {
+          title: 'Request Personalized Quote',
+          subtitle: 'Click the button below to be redirected to our specialized quote request form.',
+          ready: 'Ready for the adventure?',
+          description: 'Fill out our detailed form and you will receive a personalized proposal within 24-48h.',
+          redirect: 'You will be redirected to a secure form'
+        },
+        whyChoose: {
+          title: 'Why Choose Travel Frontiers?',
+          experience: 'Real travel experience in +40 countries',
+          planning: '100% personalized planning',
+          support: 'Support throughout the entire trip',
+          satisfaction: '100% satisfied clients'
+        },
+        otherMethods: {
+          title: 'Other Contact Methods',
+          email: 'Email',
+          phone: 'Phone',
+          location: 'Location'
+        }
       }
     },
     fr: {
