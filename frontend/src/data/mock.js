@@ -134,6 +134,12 @@ export const mockData = {
       services: {
         title: 'Our Services',
         subtitle: 'Unique experiences tailored to your needs',
+        cta: {
+          title: 'Ready for your next adventure?',
+          subtitle: 'Every trip is unique. Let us create an unforgettable experience just for you.',
+          button: 'Start Now',
+          testimonials: 'View Testimonials'
+        },
         items: [
           {
             title: 'Personalized Planning',
