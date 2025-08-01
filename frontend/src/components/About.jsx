@@ -61,8 +61,8 @@ const About = () => {
                   <span className="text-green-600 font-bold text-lg">✓</span>
                 </div>
                 <div>
-                  <p className="font-bold text-gray-900">100+ Viagens Planeadas</p>
-                  <p className="text-sm text-gray-600">Clientes satisfeitos em 2024</p>
+                  <p className="font-bold text-gray-900">100+ {t('about.achievements.trips')}</p>
+                  <p className="text-sm text-gray-600">{t('about.achievements.clients')}</p>
                 </div>
               </div>
             </div>
