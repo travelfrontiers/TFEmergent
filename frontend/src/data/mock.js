@@ -342,6 +342,14 @@ export const mockData = {
           phone: 'Téléphone',
           location: 'Localisation'
         }
+      },
+      footer: {
+        description: 'Découvrez de nouveaux horizons avec Travel Frontiers. 15 ans à explorer le monde et maintenant aidant les autres à créer leurs propres aventures inoubliables.',
+        quickLinks: 'Liens Rapides',
+        contact: 'Contact',
+        copyright: 'Tous droits réservés.',
+        privacy: 'Politique de Confidentialité',
+        terms: 'Conditions de Service'
       }
     }
   }
