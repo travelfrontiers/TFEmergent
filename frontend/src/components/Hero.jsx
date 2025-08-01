@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { useLanguage } from '../contexts/LanguageContext';
-import { MapPin, Users, TrendingUp } from 'lucide-react';
+import { MapPin, TrendingUp } from 'lucide-react';
 
 const Hero = () => {
   const { t } = useLanguage();
