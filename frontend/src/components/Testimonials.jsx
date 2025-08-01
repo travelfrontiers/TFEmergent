@@ -103,15 +103,15 @@ const Testimonials = () => {
         <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           <div className="text-center">
             <div className="text-3xl font-bold text-orange-600 mb-2">100+</div>
-            <p className="text-gray-600">Viagens Planeadas</p>
+            <p className="text-gray-600">{t('testimonials.stats.trips')}</p>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold text-orange-600 mb-2">40+</div>
-            <p className="text-gray-600">Países Visitados</p>
+            <p className="text-gray-600">{t('testimonials.stats.countries')}</p>
           </div>
           <div className="text-center">
             <div className="text-3xl font-bold text-orange-600 mb-2">15</div>
-            <p className="text-gray-600">Anos de Experiência</p>
+            <p className="text-gray-600">{t('testimonials.stats.experience')}</p>
           </div>
         </div>
       </div>
