@@ -252,10 +252,8 @@ export const mockData = {
         stats: {
           experience: '15 ans d\'expérience',
           countries: '+40 pays visités',
-          revenue: '100k€ en consultation',
           subtitle1: 'Voyageant dans le monde',
-          subtitle2: 'Sur tous les continents', 
-          subtitle3: 'Avec des clients satisfaits'
+          subtitle2: 'Sur tous les continents'
         }
       },
       about: {
