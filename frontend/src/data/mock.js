@@ -79,7 +79,27 @@ export const mockData = {
       contact: {
         title: 'Comece a sua Próxima Aventura',
         subtitle: 'Peça o seu orçamento personalizado e deixe-nos planear a viagem dos seus sonhos',
-        cta: 'Contactar Agora'
+        cta: 'Contactar Agora',
+        form: {
+          title: 'Pedir Orçamento Personalizado',
+          subtitle: 'Clique no botão abaixo para ser redirecionado para o nosso formulário de pedido de orçamento especializado.',
+          ready: 'Pronto para a aventura?',
+          description: 'Preencha o nosso formulário detalhado e receberá uma proposta personalizada em 24-48h.',
+          redirect: 'Será redirecionado para um formulário seguro'
+        },
+        whyChoose: {
+          title: 'Porque Escolher a Travel Frontiers?',
+          experience: 'Experiência real de viagem em +40 países',
+          planning: 'Planeamento 100% personalizado',
+          support: 'Acompanhamento durante toda a viagem',
+          satisfaction: 'Clientes 100% satisfeitos'
+        },
+        otherMethods: {
+          title: 'Outras Formas de Contacto',
+          email: 'Email',
+          phone: 'Telefone',
+          location: 'Localização'
+        }
       }
     },
     en: {
