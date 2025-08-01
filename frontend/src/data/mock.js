@@ -122,7 +122,14 @@ export const mockData = {
       },
       about: {
         title: 'About Tiago Ferreira',
-        description: 'I have been traveling for 15 years and have visited more than 40 countries on all continents. I gained extensive experience in planning trips and group itineraries. I started travel consultancy a year ago and have already generated almost €100,000, with clients very satisfied with the service I provide and the proposals I present for all types of holidays.'
+        description: 'I have been traveling for 15 years and have visited more than 40 countries on all continents. I gained extensive experience in planning trips and group itineraries. I started travel consultancy a year ago and have already generated almost €100,000, with clients very satisfied with the service I provide and the proposals I present for all types of holidays.',
+        achievements: {
+          global: 'Global Experience',
+          certified: 'Certified Consultant',
+          passion: 'Passion for Travel',
+          trips: 'Trips Planned',
+          clients: 'Satisfied clients in 2024'
+        }
       },
       services: {
         title: 'Our Services',
