@@ -28,20 +28,17 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img 
-              src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
-              alt="Travel Frontiers"
-              className="w-12 h-12 object-contain rounded-lg"
-              onError={(e) => {
-                e.target.style.display = 'none';
-                e.target.nextSibling.style.display = 'flex';
-              }}
-            />
-            <div 
-              className="w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full items-center justify-center"
-              style={{display: 'none'}}
-            >
-              <span className="text-white font-bold text-lg">TF</span>
+            {/* Travel Frontiers Logo with Globe and Traveler */}
+            <div className="w-12 h-12 bg-black rounded-full flex items-center justify-center relative">
+              <div className="w-8 h-8 border-2 border-amber-400 border-dashed rounded-full flex items-center justify-center">
+                <div className="w-5 h-5 bg-amber-400 rounded-full relative">
+                  <div className="absolute inset-1 bg-black rounded-full"></div>
+                  <div className="absolute top-0.5 right-0.5 w-1 h-1 bg-amber-400 rounded-full"></div>
+                </div>
+              </div>
+              <div className="absolute -top-1 -right-1 w-3 h-3 text-amber-400">
+                ✈
+              </div>
             </div>
             <span className="text-xl font-bold text-gray-900">Travel Frontiers</span>
           </div>
