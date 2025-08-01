@@ -56,6 +56,10 @@ export const mockData = {
             description: 'Desde voos a alojamento, atividades e transfers - tudo incluído para uma viagem sem preocupações.'
           },
           {
+            title: 'Cruzeiros',
+            description: 'Experiências marítimas exclusivas com os melhores roteiros de cruzeiros pelo mundo, adaptados ao seu perfil.'
+          },
+          {
             title: 'Consultoria Especializada',
             description: 'Aconselhamento profissional baseado em experiência real de viagem em mais de 40 países.'
           }
