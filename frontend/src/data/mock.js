@@ -235,6 +235,12 @@ export const mockData = {
       services: {
         title: 'Nos Services',
         subtitle: 'Expériences uniques adaptées à vos besoins',
+        cta: {
+          title: 'Prêt pour votre prochaine aventure?',
+          subtitle: 'Chaque voyage est unique. Laissez-nous créer une expérience inoubliable rien que pour vous.',
+          button: 'Commencer Maintenant',
+          testimonials: 'Voir les Témoignages'
+        },
         items: [
           {
             title: 'Planification Personnalisée',
