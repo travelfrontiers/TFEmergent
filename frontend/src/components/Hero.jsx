@@ -54,7 +54,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <p className="text-2xl font-bold">{t('hero.stats.experience')}</p>
-                  <p className="text-white/80">Viajando pelo mundo</p>
+                  <p className="text-white/80">{t('hero.stats.subtitle1')}</p>
                 </div>
               </div>
               
@@ -64,7 +64,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <p className="text-2xl font-bold">{t('hero.stats.countries')}</p>
-                  <p className="text-white/80">Em todos os continentes</p>
+                  <p className="text-white/80">{t('hero.stats.subtitle2')}</p>
                 </div>
               </div>
               
@@ -74,7 +74,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <p className="text-2xl font-bold">{t('hero.stats.revenue')}</p>
-                  <p className="text-white/80">Com clientes satisfeitos</p>
+                  <p className="text-white/80">{t('hero.stats.subtitle3')}</p>
                 </div>
               </div>
             </div>
