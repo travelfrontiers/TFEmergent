@@ -24,21 +24,21 @@ const About = () => {
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Globe className="w-8 h-8 text-orange-600" />
                 </div>
-                <p className="text-sm font-semibold text-gray-900">Experiência Global</p>
+                <p className="text-sm font-semibold text-gray-900">{t('about.achievements.global')}</p>
               </div>
               
               <div className="text-center">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Award className="w-8 h-8 text-orange-600" />
                 </div>
-                <p className="text-sm font-semibold text-gray-900">Consultor Certificado</p>
+                <p className="text-sm font-semibold text-gray-900">{t('about.achievements.certified')}</p>
               </div>
               
               <div className="text-center">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Heart className="w-8 h-8 text-orange-600" />
                 </div>
-                <p className="text-sm font-semibold text-gray-900">Paixão por Viajar</p>
+                <p className="text-sm font-semibold text-gray-900">{t('about.achievements.passion')}</p>
               </div>
             </div>
           </div>
