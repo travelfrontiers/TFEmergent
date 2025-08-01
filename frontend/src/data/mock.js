@@ -177,6 +177,10 @@ export const mockData = {
             description: 'From flights to accommodation, activities and transfers - everything included for a worry-free trip.'
           },
           {
+            title: 'Cruises',
+            description: 'Exclusive maritime experiences with the best cruise routes around the world, tailored to your profile.'
+          },
+          {
             title: 'Specialized Consultancy',
             description: 'Professional advice based on real travel experience in more than 40 countries.'
           }
