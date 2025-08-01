@@ -67,16 +67,6 @@ const Hero = () => {
                   <p className="text-white/80">{t('hero.stats.subtitle2')}</p>
                 </div>
               </div>
-              
-              <div className="flex items-center space-x-4 text-white">
-                <div className="w-12 h-12 bg-orange-500/20 rounded-full flex items-center justify-center">
-                  <Users className="w-6 h-6 text-orange-400" />
-                </div>
-                <div>
-                  <p className="text-2xl font-bold">{t('hero.stats.revenue')}</p>
-                  <p className="text-white/80">{t('hero.stats.subtitle3')}</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
