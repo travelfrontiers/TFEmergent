@@ -6,45 +6,9 @@ import { ExternalLink, Mail, Phone, MapPin, Plane } from 'lucide-react';
 
 const Contact = () => {
   const { t } = useLanguage();
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    destination: '',
-    budget: '',
-    message: ''
-  });
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Mock form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
-    toast({
-      title: "Pedido Enviado!",
-      description: "Entraremos em contacto consigo brevemente para planear a sua viagem dos sonhos.",
-    });
-    
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      destination: '',
-      budget: '',
-      message: ''
-    });
-    
-    setIsSubmitting(false);
+  const handleQuoteRequest = () => {
+    window.open('https://www.icligo.com/forms/pt/contact-us/book-your-trip?utm_source=LHw8s4N4', '_blank');
   };
 
   return (
