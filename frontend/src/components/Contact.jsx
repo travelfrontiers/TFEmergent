@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Button } from './ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Input } from './ui/input';
-import { Textarea } from './ui/textarea';
-import { toast } from '../hooks/use-toast';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { ExternalLink, Mail, Phone, MapPin, Plane } from 'lucide-react';
 
 const Contact = () => {
   const { t } = useLanguage();
