@@ -6,10 +6,11 @@ const Services = () => {
   const { t } = useLanguage();
 
   const serviceImages = [
-    'https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwyfHx0cmF2ZWwlMjBwbGFubmluZ3xlbnwwfHx8fDE3NTQwODQyNjJ8MA&ixlib=rb-4.1.0&q=85',
-    'https://images.unsplash.com/photo-1536607961765-592e80bcc19e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwxfHxncm91cCUyMHRyYXZlbHxlbnwwfHx8fDE3NTQwODQyNzB8MA&ixlib=rb-4.1.0&q=85',
-    'https://images.unsplash.com/photo-1578894381163-e72c17f2d45f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwzfHx0cmF2ZWwlMjBwbGFubmluZ3xlbnwwfHx8fDE3NTQwODQyNjJ8MA&ixlib=rb-4.1.0&q=85',
-    'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwzfHxncm91cCUyMHRyYXZlbHxlbnwwfHx8fDE3NTQwODQyNzB8MA&ixlib=rb-4.1.0&q=85'
+    'https://images.unsplash.com/photo-1718302661620-0404ab653acb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwxfHx0cmF2ZWwlMjBkZXN0aW5hdGlvbnN8ZW58MHx8fHwxNzU0MDg0MjM5fDA&ixlib=rb-4.1.0&q=85', // Perast, Montenegro - Coastal town
+    'https://images.unsplash.com/photo-1450380412196-4e27fb7d2270?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwyfHxleG90aWMlMjBiZWFjaGVzfGVufDB8fHx8MTc1NDA4NDI0Nnww&ixlib=rb-4.1.0&q=85', // Caribbean bay - Group travel
+    'https://images.unsplash.com/photo-1554366347-897a5113f6ab?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwyfHx0cmF2ZWwlMjBkZXN0aW5hdGlvbnN8ZW58MHx8fHwxNzU0MDg0MjM5fDA&ixlib=rb-4.1.0&q=85', // Tropea, Italy - Beach paradise
+    'https://images.unsplash.com/photo-1594661745200-810105bcf054?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHw0fHx0cmF2ZWwlMjBkZXN0aW5hdGlvbnN8ZW58MHx8fHwxNzU0MDg0MjM5fDA&ixlib=rb-4.1.0&q=85', // Cruise destination
+    'https://images.unsplash.com/photo-1610024552791-c92de4e0394b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwxfHxtb3VudGFpbiUyMGxhbmRzY2FwZXN8ZW58MHx8fHwxNzU0MDg0MjUzfDA&ixlib=rb-4.1.0&q=85'  // Alpine mountains
   ];
 
   return (
