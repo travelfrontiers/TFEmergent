@@ -44,7 +44,7 @@ const About = () => {
 
             {/* Statistics Card */}
             <div className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-2xl p-8 border border-orange-100">
-              <div className="flex items-center justify-center space-x-8">
+              <div className="flex items-center justify-center space-x-12">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-orange-600 mb-2">100+</div>
                   <p className="text-gray-700">{t('about.achievements.trips')}</p>
@@ -56,10 +56,6 @@ const About = () => {
                 <div className="text-center">
                   <div className="text-3xl font-bold text-orange-600 mb-2">15</div>
                   <p className="text-gray-700">Anos de Experiência</p>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-orange-600 mb-2">100k€</div>
-                  <p className="text-gray-700">{t('about.achievements.clients')}</p>
                 </div>
               </div>
             </div>
