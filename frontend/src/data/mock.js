@@ -281,7 +281,27 @@ export const mockData = {
       contact: {
         title: 'Commencez Votre Prochaine Aventure',
         subtitle: 'Demandez votre devis personnalisé et laissez-nous planifier le voyage de vos rêves',
-        cta: 'Contactez Maintenant'
+        cta: 'Contactez Maintenant',
+        form: {
+          title: 'Demander un Devis Personnalisé',
+          subtitle: 'Cliquez sur le bouton ci-dessous pour être redirigé vers notre formulaire spécialisé de demande de devis.',
+          ready: 'Prêt pour l\'aventure?',
+          description: 'Remplissez notre formulaire détaillé et vous recevrez une proposition personnalisée dans les 24-48h.',
+          redirect: 'Vous serez redirigé vers un formulaire sécurisé'
+        },
+        whyChoose: {
+          title: 'Pourquoi Choisir Travel Frontiers?',
+          experience: 'Expérience de voyage réelle dans +40 pays',
+          planning: 'Planification 100% personnalisée',
+          support: 'Accompagnement pendant tout le voyage',
+          satisfaction: 'Clients 100% satisfaits'
+        },
+        otherMethods: {
+          title: 'Autres Méthodes de Contact',
+          email: 'Email',
+          phone: 'Téléphone',
+          location: 'Localisation'
+        }
       }
     }
   }
