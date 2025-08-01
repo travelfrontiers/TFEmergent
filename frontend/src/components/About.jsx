@@ -8,8 +8,8 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left Content */}
+        <div className="grid lg:grid-cols-1 gap-16 items-center">
+          {/* Content */}
           <div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
               {t('about.title')}
@@ -19,7 +19,7 @@ const About = () => {
             </p>
             
             {/* Achievement Icons */}
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-3 gap-6 mb-12">
               <div className="text-center">
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Globe className="w-8 h-8 text-orange-600" />
@@ -41,28 +41,25 @@ const About = () => {
                 <p className="text-sm font-semibold text-gray-900">{t('about.achievements.passion')}</p>
               </div>
             </div>
-          </div>
 
-          {/* Right Content - Image */}
-          <div className="relative">
-            <div className="relative overflow-hidden rounded-2xl shadow-2xl">
-              <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
-                alt="Tiago Ferreira - Travel Consultant"
-                className="w-full h-[500px] object-cover transform hover:scale-105 transition-transform duration-700"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-            </div>
-            
-            {/* Floating Card */}
-            <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-6 border border-gray-100">
-              <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-                  <span className="text-green-600 font-bold text-lg">✓</span>
+            {/* Statistics Card */}
+            <div className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-2xl p-8 border border-orange-100">
+              <div className="flex items-center justify-center space-x-8">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-orange-600 mb-2">100+</div>
+                  <p className="text-gray-700">{t('about.achievements.trips')}</p>
                 </div>
-                <div>
-                  <p className="font-bold text-gray-900">100+ {t('about.achievements.trips')}</p>
-                  <p className="text-sm text-gray-600">{t('about.achievements.clients')}</p>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-orange-600 mb-2">40+</div>
+                  <p className="text-gray-700">Países Visitados</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-orange-600 mb-2">15</div>
+                  <p className="text-gray-700">Anos de Experiência</p>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-orange-600 mb-2">100k€</div>
+                  <p className="text-gray-700">{t('about.achievements.clients')}</p>
                 </div>
               </div>
             </div>
