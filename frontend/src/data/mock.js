@@ -39,8 +39,7 @@ export const mockData = {
         cta: {
           title: 'Pronto para a sua próxima aventura?',
           subtitle: 'Cada viagem é única. Deixe-nos criar uma experiência inesquecível apenas para si.',
-          button: 'Começar Agora',
-          testimonials: 'Ver Testemunhos'
+          button: 'Começar Agora'
         },
         items: [
           {
