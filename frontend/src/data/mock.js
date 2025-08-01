@@ -223,7 +223,14 @@ export const mockData = {
       },
       about: {
         title: 'À propos de Tiago Ferreira',
-        description: 'Je voyage depuis 15 ans et j\'ai visité plus de 40 pays sur tous les continents. J\'ai acquis une vaste expérience dans la planification de voyages et d\'itinéraires de groupe. J\'ai commencé la consultation en voyage il y a un an et j\'ai déjà généré près de 100 000€, avec des clients très satisfaits du service que je fournis et des propositions que je présente pour tous types de vacances.'
+        description: 'Je voyage depuis 15 ans et j\'ai visité plus de 40 pays sur tous les continents. J\'ai acquis une vaste expérience dans la planification de voyages et d\'itinéraires de groupe. J\'ai commencé la consultation en voyage il y a un an et j\'ai déjà généré près de 100 000€, avec des clients très satisfaits du service que je fournis et des propositions que je présente pour tous types de vacances.',
+        achievements: {
+          global: 'Expérience Globale',
+          certified: 'Consultant Certifié',
+          passion: 'Passion pour les Voyages',
+          trips: 'Voyages Planifiés',
+          clients: 'Clients satisfaits en 2024'
+        }
       },
       services: {
         title: 'Nos Services',
