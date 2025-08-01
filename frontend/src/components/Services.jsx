@@ -49,23 +49,23 @@ const Services = () => {
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-orange-50 to-amber-50 rounded-2xl p-8 md:p-12">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              Pronto para a sua próxima aventura?
+              {t('services.cta.title')}
             </h3>
             <p className="text-lg text-gray-700 mb-6 max-w-2xl mx-auto">
-              Cada viagem é única. Deixe-nos criar uma experiência inesquecível apenas para si.
+              {t('services.cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => window.open('https://www.icligo.com/forms/pt/contact-us/book-your-trip?utm_source=LHw8s4N4', '_blank')}
                 className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
               >
-                Começar Agora
+                {t('services.cta.button')}
               </button>
               <button 
                 onClick={() => document.getElementById('testimonials')?.scrollIntoView({ behavior: 'smooth' })}
                 className="bg-white hover:bg-gray-50 text-gray-900 px-8 py-3 rounded-full font-semibold border border-gray-300 hover:border-gray-400 shadow-md hover:shadow-lg transition-all duration-200"
               >
-                Ver Testemunhos
+                {t('services.cta.testimonials')}
               </button>
             </div>
           </div>
