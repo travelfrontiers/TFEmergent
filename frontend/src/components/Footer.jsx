@@ -28,8 +28,7 @@ const Footer = () => {
               <span className="text-2xl font-bold">Travel Frontiers</span>
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
-              Descubra novos horizontes com a Travel Frontiers. Há 15 anos a explorar o mundo 
-              e agora ajudando outros a criar as suas próprias aventuras inesquecíveis.
+              {t('footer.description')}
             </p>
             <div className="flex space-x-4">
               <a 
