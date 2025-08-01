@@ -29,10 +29,10 @@ const Contact = () => {
           <Card className="border-0 shadow-xl">
             <CardHeader className="text-center">
               <CardTitle className="text-3xl text-gray-900 mb-4">
-                Pedir Orçamento Personalizado
+                {t('contact.form.title')}
               </CardTitle>
               <p className="text-lg text-gray-600">
-                Clique no botão abaixo para ser redirecionado para o nosso formulário de pedido de orçamento especializado.
+                {t('contact.form.subtitle')}
               </p>
             </CardHeader>
             <CardContent className="text-center">
@@ -40,9 +40,9 @@ const Contact = () => {
                 <div className="w-24 h-24 bg-gradient-to-br from-orange-100 to-amber-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Plane className="w-12 h-12 text-orange-600" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Pronto para a aventura?</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-4">{t('contact.form.ready')}</h3>
                 <p className="text-gray-600 mb-6">
-                  Preencha o nosso formulário detalhado e receberá uma proposta personalizada em 24-48h.
+                  {t('contact.form.description')}
                 </p>
               </div>
               
@@ -58,7 +58,7 @@ const Contact = () => {
               </Button>
               
               <p className="text-sm text-gray-500">
-                Será redirecionado para um formulário seguro
+                {t('contact.form.redirect')}
               </p>
             </CardContent>
           </Card>
