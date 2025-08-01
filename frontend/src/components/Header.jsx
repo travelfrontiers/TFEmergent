@@ -26,7 +26,25 @@ const Header = () => {
     <header className="fixed top-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-
+          {/* Logo */}
+          <div className="flex items-center space-x-3">
+            <img 
+              src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
+              alt="Travel Frontiers"
+              className="w-12 h-12 object-contain rounded-lg"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.nextSibling.style.display = 'flex';
+              }}
+            />
+            <div 
+              className="w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full items-center justify-center"
+              style={{display: 'none'}}
+            >
+              <span className="text-white font-bold text-lg">TF</span>
+            </div>
+            <span className="text-xl font-bold text-gray-900">Travel Frontiers</span>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
