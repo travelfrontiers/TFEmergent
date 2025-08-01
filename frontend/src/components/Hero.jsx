@@ -6,11 +6,8 @@ import { MapPin, Users, TrendingUp } from 'lucide-react';
 const Hero = () => {
   const { t } = useLanguage();
 
-  const scrollToContact = () => {
-    const element = document.getElementById('contact');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
+  const handleQuoteRequest = () => {
+    window.open('https://www.icligo.com/forms/pt/contact-us/book-your-trip?utm_source=LHw8s4N4', '_blank');
   };
 
   return (
