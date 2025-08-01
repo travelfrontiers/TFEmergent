@@ -16,10 +16,8 @@ export const mockData = {
         stats: {
           experience: '15 anos de experiência',
           countries: '+40 países visitados',
-          revenue: '100k€ em consultoria',
           subtitle1: 'Viajando pelo mundo',
-          subtitle2: 'Em todos os continentes',
-          subtitle3: 'Com clientes satisfeitos'
+          subtitle2: 'Em todos os continentes'
         }
       },
       about: {
