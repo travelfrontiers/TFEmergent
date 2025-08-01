@@ -29,14 +29,21 @@ const Services = () => {
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {t('services.items').map((service, index) => (
-            <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg hover:transform hover:scale-105">
-              <CardContent className="p-8 text-center">
-                <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-orange-200 transition-colors duration-300">
-                  {serviceIcons[index]}
+            <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg hover:transform hover:scale-105 overflow-hidden">
+              <div className="relative h-48 overflow-hidden">
+                <img 
+                  src={serviceImages[index]}
+                  alt={service.title}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute bottom-4 left-4 right-4">
+                  <h3 className="text-lg font-bold text-white mb-2">
+                    {service.title}
+                  </h3>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
-                  {service.title}
-                </h3>
+              </div>
+              <CardContent className="p-6">
                 <p className="text-gray-600 leading-relaxed">
                   {service.description}
                 </p>
