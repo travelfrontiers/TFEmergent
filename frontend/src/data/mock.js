@@ -298,6 +298,10 @@ export const mockData = {
             description: 'Des vols à l\'hébergement, activités et transferts - tout inclus pour un voyage sans souci.'
           },
           {
+            title: 'Croisières',
+            description: 'Expériences maritimes exclusives avec les meilleurs itinéraires de croisières dans le monde, adaptés à votre profil.'
+          },
+          {
             title: 'Consultation Spécialisée',
             description: 'Conseils professionnels basés sur une expérience de voyage réelle dans plus de 40 pays.'
           }
