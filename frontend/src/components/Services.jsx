@@ -27,7 +27,7 @@ const Services = () => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {t('services.items').map((service, index) => (
             <Card key={index} className="group hover:shadow-xl transition-all duration-300 border-0 shadow-lg hover:transform hover:scale-105 overflow-hidden">
               <div className="relative h-48 overflow-hidden">
@@ -36,15 +36,15 @@ const Services = () => {
                   alt={service.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
                 <div className="absolute bottom-4 left-4 right-4">
-                  <h3 className="text-lg font-bold text-white mb-2">
+                  <h3 className="text-sm font-bold text-white mb-1 leading-tight">
                     {service.title}
                   </h3>
                 </div>
               </div>
-              <CardContent className="p-6">
-                <p className="text-gray-600 leading-relaxed">
+              <CardContent className="p-4">
+                <p className="text-gray-600 leading-relaxed text-sm">
                   {service.description}
                 </p>
               </CardContent>
