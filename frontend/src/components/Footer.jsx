@@ -95,7 +95,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="font-bold text-lg mb-6">Contacto</h3>
+            <h3 className="font-bold text-lg mb-6">{t('footer.contact')}</h3>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-orange-400" />
