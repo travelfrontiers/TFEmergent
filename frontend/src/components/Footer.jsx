@@ -119,14 +119,14 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2025 Travel Frontiers. Todos os direitos reservados.
+              © 2025 Travel Frontiers. {t('footer.copyright')}
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-orange-400 text-sm transition-colors duration-200">
-                Política de Privacidade
+                {t('footer.privacy')}
               </a>
               <a href="#" className="text-gray-400 hover:text-orange-400 text-sm transition-colors duration-200">
-                Termos de Serviço
+                {t('footer.terms')}
               </a>
             </div>
           </div>
