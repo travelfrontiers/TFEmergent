@@ -6,11 +6,11 @@ import { Plane, Users, Package, Compass } from 'lucide-react';
 const Services = () => {
   const { t } = useLanguage();
 
-  const serviceIcons = [
-    <Compass className="w-8 h-8 text-orange-600" />,
-    <Users className="w-8 h-8 text-orange-600" />,
-    <Package className="w-8 h-8 text-orange-600" />,
-    <Plane className="w-8 h-8 text-orange-600" />
+  const serviceImages = [
+    'https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwyfHx0cmF2ZWwlMjBwbGFubmluZ3xlbnwwfHx8fDE3NTQwODQyNjJ8MA&ixlib=rb-4.1.0&q=85',
+    'https://images.unsplash.com/photo-1536607961765-592e80bcc19e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwxfHxncm91cCUyMHRyYXZlbHxlbnwwfHx8fDE3NTQwODQyNzB8MA&ixlib=rb-4.1.0&q=85',
+    'https://images.unsplash.com/photo-1578894381163-e72c17f2d45f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwzfHx0cmF2ZWwlMjBwbGFubmluZ3xlbnwwfHx8fDE3NTQwODQyNjJ8MA&ixlib=rb-4.1.0&q=85',
+    'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwzfHxncm91cCUyMHRyYXZlbHxlbnwwfHx8fDE3NTQwODQyNzB8MA&ixlib=rb-4.1.0&q=85'
   ];
 
   return (
