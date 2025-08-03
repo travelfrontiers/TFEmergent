@@ -11,15 +11,15 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: 📥 Checkout repo
+      - name: 📥 Checkout Repository
         uses: actions/checkout@v4
 
-      - name: 🔧 Setup Node
+      - name: 🔧 Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: 📦 Install and Build with Legacy Peer Deps
+      - name: 📦 Install Dependencies and Build (with fixes)
         run: |
           cd frontend
           npm install --legacy-peer-deps
