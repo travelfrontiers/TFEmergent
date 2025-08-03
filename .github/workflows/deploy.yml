@@ -23,7 +23,7 @@ jobs:
         run: |
           cd frontend
           npm install
-          npm run build
+          CI='' npm run build
 
       - name: 🚀 Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
